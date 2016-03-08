@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB9B38E01C8F916900A891A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9B38DF1C8F916900A891A8 /* Default-568h@2x.png */; };
 		FBE4CF681C895A5E003E730D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE4CF671C895A5E003E730D /* main.m */; };
 		FBE4CF6B1C895A5E003E730D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE4CF6A1C895A5E003E730D /* AppDelegate.m */; };
 		FBE4CF6E1C895A5E003E730D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE4CF6D1C895A5E003E730D /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB9B38DF1C8F916900A891A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FBE4CF631C895A5E003E730D /* DreamCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE4CF671C895A5E003E730D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBE4CF691C895A5E003E730D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		FBE4CF5A1C895A5E003E730D = {
 			isa = PBXGroup;
 			children = (
+				FB9B38DF1C8F916900A891A8 /* Default-568h@2x.png */,
 				FBE4CF651C895A5E003E730D /* DreamCatcher */,
 				FBE4CF641C895A5E003E730D /* Products */,
 			);
@@ -73,8 +76,7 @@
 				FBE4CF771C895A5E003E730D /* Info.plist */,
 				FBE4CF661C895A5E003E730D /* Supporting Files */,
 			);
-			name = DreamCatcher;
-			path = newtry;
+			path = DreamCatcher;
 			sourceTree = "<group>";
 		};
 		FBE4CF661C895A5E003E730D /* Supporting Files */ = {
@@ -143,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE4CF761C895A5E003E730D /* LaunchScreen.storyboard in Resources */,
+				FB9B38E01C8F916900A891A8 /* Default-568h@2x.png in Resources */,
 				FBE4CF731C895A5E003E730D /* Assets.xcassets in Resources */,
 				FBE4CF711C895A5E003E730D /* Main.storyboard in Resources */,
 			);
@@ -268,7 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = newtry/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DreamCatcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amber.newtry;
 				PRODUCT_NAME = DreamCatcher;
@@ -279,7 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = newtry/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DreamCatcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amber.newtry;
 				PRODUCT_NAME = DreamCatcher;

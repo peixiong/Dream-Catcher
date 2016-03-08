@@ -22,6 +22,9 @@
     [super viewDidLoad];
     self.titles = [NSMutableArray new];
     self.descriptions = [NSMutableArray new];
+    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] init];
+    barButtonItem.title = @"Back";
+    self.navigationItem.backBarButtonItem = barButtonItem;
 }
 
 -(void)presentDreamEntry{
